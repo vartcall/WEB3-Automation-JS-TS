@@ -1,4 +1,19 @@
-# ⚡ WEB3 Automation — JavaScript & TypeScript
+![Web3 Automation](./banner.png)
+
+![Node.js](https://img.shields.io/badge/Node.js-20%2B-brightgreen)
+![TypeScript](https://img.shields.io/badge/TypeScript-%F0%9F%94%A5-blue)
+![Ethers.js](https://img.shields.io/badge/ethers.js-v6-purple)
+![Hardhat](https://img.shields.io/badge/Hardhat-smart--contracts-orange)
+![Foundry](https://img.shields.io/badge/Foundry-fast--builds-9cf)
+![dotenv](https://img.shields.io/badge/dotenv-env--config-lightgrey)
+
+![DeFi](https://img.shields.io/badge/DeFi-automation-green)
+![Airdrop](https://img.shields.io/badge/Airdrop-farming-ff69b4)
+![Automation](https://img.shields.io/badge/Web3--Bots-OnFire-red)
+![Tenderly](https://img.shields.io/badge/Tenderly-simulation-blueviolet)
+![TheGraph](https://img.shields.io/badge/TheGraph-data--indexing-lightblue)
+
+# WEB3 Automation - JavaScript & TypeScript
 
 🧠 Добро пожаловать в мой **личный сборник Web3-автоматизаций** на чистом JavaScript и TypeScript.
 
@@ -22,13 +37,14 @@
     │   ├── 00-links.md     # полезные ссылки, доки, тулзы
     │   ├── 01-setup.md     # установка окружения
     │   ├── 02-tools.md     # инструменты для работы
-    │   └── 03-glossary.md  # глоссарий терминов Web3
+    │   ├── 03-glossary.md  # глоссарий терминов Web3
+    │   └── 05-airdrops.md  # автоматизация фарминга airdrop'ов
     ├── 📁 basics/          # база: транзакции, кошельки, провайдеры
     ├── 📁 advanced/        # продвинутые вещи: подписи, мультисиги, боты, безопасность
     └── 📁 examples/        # практические кейсы: дашборды, боты, трекеры
 ```
 
-> _База находится я в `lessons/introduction/` - заходи туда первым делом._
+> _База находится в `lessons/introduction/` — начнинаем с неё первым делом._
 
 ````
 ## ⚙️ Установка и запуск
@@ -39,6 +55,10 @@
 git clone https://github.com/yourname/WEB3-Automation-JS-TS.git
 cd WEB3-Automation-JS-TS
 ````
+
+> 💡 **Рекомендуется использовать Node.js LTS версии 20.x**
+>
+> Node.js 18+ также поддерживается, но **20.x — оптимален для стабильности и совместимости с Web3-инструментами** (`ethers.js`, `ts-node`, `dotenv`, и пр.)
 
 ### 2. Установи зависимости (если нужно)
 
@@ -80,10 +100,11 @@ npx ts-node lessons/basics/sendTx.ts
 
 ## 🧭 Полезные ссылки
 
-- 📄 [00-links.md](./lessons/introduction/00-links.md) — гайды, доки, тулзы
-- ⚙️ [01-setup.md](./lessons/introduction/01-setup.md) — установка окружения
-- 🧰 [02-tools.md](./lessons/introduction/02-tools.md) — список мощных Web3-инструментов
-- 📘 [03-glossary.md](./lessons/introduction/03-glossary.md) — глоссарий терминов Web3/DeFi/NFT
+- 📄 [00-links.md](./lessons/introduction/00-links.md) - гайды, доки, тулзы
+- ⚙️ [01-setup.md](./lessons/introduction/01-setup.md) - установка окружения
+- 🧰 [02-tools.md](./lessons/introduction/02-tools.md) - список мощных Web3-инструментов
+- 📘 [03-glossary.md](./lessons/introduction/03-glossary.md) - глоссарий терминов Web3/DeFi/NFT
+- 🧠 [04-airdrops.md](./lessons/introduction/04-airdrops.md) - автоматизация фарминга airdrop'ов
 
 ---
 
@@ -103,4 +124,4 @@ npx ts-node lessons/basics/sendTx.ts
 
 ---
 
-> Продолжаем Web3 гринд 💻⚡
+> Продолжаем Web3 гринд!
