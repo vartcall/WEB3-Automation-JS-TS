@@ -1,0 +1,19 @@
+# ❌ Node.js зависимости
+node_modules/
+
+# ❌ Конфигурационные файлы проекта
+package.json
+package-lock.json
+
+# ❌ Переменные окружения
+.env
+
+# ❌ Выходные директории
+dist/
+build/
+
+# ❌ Системные файлы
+.DS_Store
+
+# ❌ Конфигурация
+tsconfig.json
